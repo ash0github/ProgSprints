@@ -13,6 +13,14 @@
         android:theme="@style/Theme.TeaGardenApp"
         tools:targetApi="31">
         <activity
+            android:name=".CreatePost"
+            android:exported="false"
+            android:theme="@style/Theme.TeaGardenApp" />
+        <activity
+            android:name=".Homescreen"
+            android:exported="false"
+            android:theme="@style/Theme.TeaGardenApp" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
